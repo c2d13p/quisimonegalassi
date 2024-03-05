@@ -20,8 +20,5 @@ h1 {
 }
 
 .content {
-    position: relative;
     text-align: center;
-    color: white;
-    z-index: 2; /* Ensure content is above background image */
 }
