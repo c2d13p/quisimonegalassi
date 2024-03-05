@@ -1,7 +1,20 @@
-body {
-    background-color: black;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-h2 {
-    color: white;
+.background-image {
+    background-image: url('left-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: red;
 }
