@@ -5,10 +5,10 @@ body, html {
 }
 
 .background-image {
-    background-image: url('left-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left top;
+    background-image: url('background.jpeg');
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -17,4 +17,11 @@ body, html {
 
 h1 {
     color: red;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 2; /* Ensure content is above background image */
 }
