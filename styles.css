@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Super Smash TV';
+    src: url('Super Smash TV.ttf') format('truetype');
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -28,45 +33,27 @@ body, html {
 
 .text-title {
     position: absolute;
-    top: 0%; 
+    top: -4%; 
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: 'Super Smash TV', sans-serif;
+    letter-spacing: 2px;
 }
 
-.text-bio {
+.text-menu {
     position: absolute;
     top: 25%; 
     left: 35%;
     transform: translateX(-50%);
     color: white;
-    font-size: 2.5rem;  
+    font-size: 3.5rem;  
+    font-family: 'Super Smash TV', sans-serif;
+    letter-spacing: 2px;
 }
 
-.text-music {
-    position: absolute;
-    top: 35%; 
-    left: 35%;
-    transform: translateX(-50%);
-    color: white;
-    font-size: 2.5rem;  
-}
-
-.text-social {
-    position: absolute;
-    top: 45%; 
-    left: 35%;
-    transform: translateX(-50%);
-    color: white;
-    font-size: 2.5rem;  
-}
-
-.text-tour {
-    position: absolute;
-    top: 55%; 
-    left: 35%;
-    transform: translateX(-50%);
-    color: white;
-    font-size: 2.5rem;  
+.text-menu a {
+    color: white; /* Set the color to white */
+    text-decoration: none; /* Remove the underline */
 }
