@@ -42,12 +42,25 @@ body, html {
     letter-spacing: 2px;
 }
 
+.text-bio {
+    position: absolute;
+    top: 25%; 
+    left: 73%;
+    transform: translateX(-50%);
+    width: 25%;
+    color: #d8d8d8;
+    font-size: 1.8rem;
+    font-family: 'Super Smash TV', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
 .text-menu {
     position: absolute;
-    top: 24%; 
+    top: 23.5%; 
     left: 35%;
     transform: translateX(-50%);
-    color: white;
+    color: #d8d8d8;
     font-size: 3.5rem;  
     font-family: 'Super Smash TV', sans-serif;
     letter-spacing: 2px;
@@ -55,7 +68,43 @@ body, html {
 }
 
 .text-menu a {
-    color: #d8d8d8; /* Set the color to white */
-    text-decoration: none; /* Remove the underline */
+    color: #d8d8d8;
+    text-decoration: none;
+    mix-blend-mode: screen;
+}
+
+.page-menu {
+    position: absolute;
+    top: 70%; 
+    left: 65%;
+    transform: translateX(-50%);
+    color: #d8d8d8;
+    font-size: 3.5rem;  
+    font-family: 'Super Smash TV', sans-serif;
+    letter-spacing: 2px;
+    mix-blend-mode: screen;
+}
+
+.page-menu a {
+    color: #d8d8d8;
+    text-decoration: none;
+    mix-blend-mode: screen;
+}
+
+.social-menu {
+    position: absolute;
+    top: 20%; 
+    left: 70%;
+    transform: translateX(-50%);
+    color: #d8d8d8;
+    font-size: 3.5rem;  
+    font-family: 'Super Smash TV', sans-serif;
+    letter-spacing: 2px;
+    mix-blend-mode: screen;
+}
+
+.social-menu a {
+    color: #d8d8d8;
+    text-decoration: none;
     mix-blend-mode: screen;
 }
