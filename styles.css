@@ -108,3 +108,22 @@ body, html {
     text-decoration: none;
     mix-blend-mode: screen;
 }
+
+div{
+    background-image:url('https://images.unsplash.com/photo-1517670972079-a58c8d6c0af8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80');
+    background-position:0 53%;
+    background-size:cover;
+    height:500px;
+    padding:40px;
+    display:flex;
+    align-items:center;
+  }
+  
+  h1{
+    mix-blend-mode:screen;
+    font-size:80px;
+    text-align:center;
+    background-color:white;
+    width:800px;
+    margin: 20px auto;
+  }
