@@ -33,10 +33,10 @@ body, html {
 
 .text-title {
     position: absolute;
-    top: -4%; 
+    top: -3.5%; 
     left: 50%;
     transform: translateX(-50%);
-    color: white;
+    color: #d8d8d8;
     font-size: 5rem;
     font-family: 'Super Smash TV', sans-serif;
     letter-spacing: 2px;
@@ -44,16 +44,18 @@ body, html {
 
 .text-menu {
     position: absolute;
-    top: 25%; 
+    top: 24%; 
     left: 35%;
     transform: translateX(-50%);
     color: white;
     font-size: 3.5rem;  
     font-family: 'Super Smash TV', sans-serif;
     letter-spacing: 2px;
+    mix-blend-mode: screen;
 }
 
 .text-menu a {
-    color: white; /* Set the color to white */
+    color: #d8d8d8; /* Set the color to white */
     text-decoration: none; /* Remove the underline */
+    mix-blend-mode: screen;
 }
