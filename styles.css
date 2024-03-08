@@ -11,10 +11,10 @@ body, html {
 }
 
 .background-image {
-    background-image: url('background.jpeg');
-    background-size: contain; 
-    background-repeat: repeat; 
+    background-image:url('background.jpeg');
     background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
     height: 100vh;
     position: relative;
 }
@@ -23,6 +23,7 @@ body, html {
     position: absolute;
     top: 50%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
 }
 
@@ -32,9 +33,10 @@ body, html {
 }
 
 .text-title {
+    mix-blend-mode: color-dodge;
     position: absolute;
     top: -3.5%; 
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     color: #d8d8d8;
     font-size: 5rem;
@@ -109,6 +111,7 @@ body, html {
     mix-blend-mode: screen;
 }
 
+/*
 div{
     background-image:url('https://images.unsplash.com/photo-1517670972079-a58c8d6c0af8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80');
     background-position:0 53%;
